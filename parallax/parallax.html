@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Efecto parallax</title>
+	<meta charset="utf-8"/>
+	<style>
+
+	*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	}
+
+	p{color:#fff;}
+
+	.container-fluid{
+	width:100%;
+	}
+
+
+	.container{
+	max-width:1080px;
+	width:100%;
+	margin:auto;
+	padding:32px;
+	}
+
+	.center{text-align:center;}
+	.black{background-color:#252525;}
+
+	.parallax{
+		height:500px;
+		background-image:url('fut.jpg');
+		background-size:cover;
+		background-attachment: fixed;
+	}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container-fluid black">
+		<div class="container center">
+			<p>NUNCA TE DES POR VENCIDO POR MUY DURA QUE PARESCA LA CITUACION, </p>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="parallax">a</div>
+	</div>
+	<div class="container-fluid black">
+		<div class="container center">
+			<p>EJERCCIO#1</p>
+		</div>
+	</div>
+		<div class="container-fluid">
+		<div class="parallax"></div>
+	</div>
+</body>
+</html>
